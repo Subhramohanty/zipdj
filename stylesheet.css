@@ -1,3 +1,6 @@
+body{
+  background-color: #272727;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,6 +29,16 @@ ul {
   .topnav {
     overflow: hidden;
     background-color: #e9e9e9;
+  }
+
+  .avatar {
+    margin-top: -20px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1000px;
+    
   }
   .topnav input[type=text] {
     float: right;
@@ -61,13 +74,16 @@ ul {
     margin-top: 60px;
   }
     .sidenav a {
-    padding: 6px 10px 10px 1px;
+    padding-top: 8px;
+    padding-right: 25px;
     text-decoration: none;
     font-size: 15px;
     color: #818181;
     display: block;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
+    
+
   }
   .sidenav a:hover {
     color: #f1f1f1;
